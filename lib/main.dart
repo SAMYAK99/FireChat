@@ -1,3 +1,4 @@
+import 'package:firechat/Screens/WelcomeScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/LoginScreen.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
 //        WelcomeScreen.id: (context) => WelcomeScreen(),
         RegistrationScreen.id: (context) => RegistrationScreen(),
         LoginScreen.id: (context) => LoginScreen(),
+        WelcomeScreen.id: (context) => WelcomeScreen(),
         //     ChatScreen.id: (context) => ChatScreen(),
       },
     );
