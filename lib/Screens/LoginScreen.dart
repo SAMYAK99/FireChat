@@ -41,8 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   /// Facebook Login
-
-  Future<void> signUpWithFacebook() async {
+   Future<void> signUpWithFacebook() async {
     try {
       var facebookLogin = new FacebookLogin();
       var result = await facebookLogin.logIn(['email']);
