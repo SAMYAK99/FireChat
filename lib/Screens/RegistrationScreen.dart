@@ -16,6 +16,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
   String Email, Password;
   bool showSpinner = false;
 
+ 
   Widget _buildEmailTF() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
